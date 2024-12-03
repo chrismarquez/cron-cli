@@ -5,6 +5,7 @@ plugins {
     application
     id("org.graalvm.buildtools.native") version "0.10.3"
     id("com.github.johnrengelman.shadow") version "7.0.0"
+    id("com.adarshr.test-logger") version "4.0.0"
 }
 
 group = "org.voidsynchron"
@@ -21,7 +22,6 @@ application {
 shadow {
     base {
         archivesName = "cron-cli"
-        version = ""
     }
 }
 
