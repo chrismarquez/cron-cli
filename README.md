@@ -33,7 +33,7 @@ After building, the project can be run in three ways:
    * Make sure that the JAVA_HOME path variable points to a valid GraalVM SDK.
       * If you followed the GraalVM installation instructions, use: `export JAVA_HOME=$(sdk home java 23.0.1-graal)`
    * To compile the binary, run: `./gradlew nativeCompile`
-   * The naive binary file should be located in the `./build/native/nativeCompile` folder with the name `cron-cli`
+   * The native binary file should be located in the `./build/native/nativeCompile` folder with the name `cron-cli`
    * To run the app, execute the command: `./build/native/nativeCompile "cron-string" <other-args>`
    * Replace the value of "cron-string" and <other-args> with the intended program arguments.
 3. As a JVM Application: (Alternative way to run the app)
