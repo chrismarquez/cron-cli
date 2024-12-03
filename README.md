@@ -11,6 +11,7 @@ The project is implemented in Kotlin as a CLI application.
 The project requires the GraalVM SDK as a dependency to compile and run the application.
 The easiest way to install this dependency is as follows:
 1. Run the following command to install SDKMan: `curl -s "https://get.sdkman.io" | bash`
+   * For Windows, refer to the following [docs](https://sdkman.io/install/#windows-installation)
 2. Using SDKMan, install the target SDK using: `sdk install java 23.0.1-graal`
 3. Export the JAVA_HOME environment variable using: `export JAVA_HOME=$(sdk home java 23.0.1-graal)`
 
