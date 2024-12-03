@@ -27,7 +27,8 @@ shadow {
 
 tasks.withType<ShadowJar> {
     archiveClassifier = ""
-}
+    dependsOn("distTar", "distZip")}
+
 
 graalvmNative {
     binaries {
